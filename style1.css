@@ -1,0 +1,169 @@
+ @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+#snap-logo
+{
+widows: 40px;
+width: 30px;
+height: 30px;
+margin: 60% 30%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+nav ul
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 20px;
+  padding: 0 0 0 20px;
+}
+h1
+{
+  color: black;
+  font-weight: 700;
+  font-size: 5em;
+}
+h2
+{
+  color: black;
+  font-weight:600 ;
+  font-size:2em ;
+}
+#skills-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 70px;
+}
+#skills-container div {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  align-items: center;
+  padding: 0;
+}
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  list-style: none;
+}
+#header
+{
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  widows: 800px;
+  height:800px;
+}
+#header div {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  padding: 200px;
+  width: 100%;
+}
+#header div article {
+  height: 200px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+}
+#header div article * {
+  padding: 10px 15px;
+}
+.link-button {
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color:black;
+  font-size: 3em;
+  padding: 60px;
+  border-radius: 30%;
+  border-color: black;
+}
+
+#bitmoji
+{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 400px;
+  height: 400px;
+}
+h4
+{
+  font-style: italic;
+  color: aquamarine; 
+  font-size: 20px;
+}
+h5
+{
+font-style: inherit;
+font-size:20px ;
+color: lawngreen;
+}
+.link-button1{
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2em;
+  padding: 10px;
+  border-color: white
+}
+#last
+{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  padding:0;
+}
+h3
+{
+font-style: italic;
+font-size: 20px;
+color: blue;
+}
+h5
+{
+  font-style: unset;
+}
+
+
+/*
+logo img
+nav text
+snap-img
+larger text in header (h1)
+(h2) tag
+(h3) tag
+regular text
+*/
